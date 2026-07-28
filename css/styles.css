@@ -1,0 +1,86 @@
+/* Aula 01 - Seletores e cores 
+
+O seletor Universal e representado por 
+ele seleciona todos os elementos da pagina 
+*/
+*{
+    /* Aplica a todos os elementos uma forma de calculo em o padding e a borda cabem dentro do tamanho definido */
+        box-sizing: border-box;
+        
+    }
+
+    body {
+        margin: 0;
+
+        background-color: #f1f5f9;
+
+        color: #1e293b;
+    }
+
+    .limite-conteudo {
+        width: 90;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
+    #titulo-principal{
+        color: white;
+    }
+
+    h1, h2, h3{
+        color: #0f172a;
+     }
+
+    p{
+        color: #475569;
+    }
+
+    .destaque{
+        background-color: #f0fdf4;
+    }
+
+    #titulo-especial{
+        color: #b91c1c;
+    }
+
+    .cabecalho{
+        background-color: #1d4ed8;
+        color: white;
+    }
+
+    .cabecalho p{
+        color: white;
+    }
+
+    .menu{
+        background-color: #0f172a;
+    }
+
+    .menu a{
+        color: white;
+
+    }
+
+    .secao{
+        background-color: white;
+    }
+
+    .cartao{
+        background-color: #f8fafc;
+    }
+
+    .cartao-tag{
+        background-color: #eff6ff;
+        border-color: #bfdbfe;
+    }
+    
+    .cartao-classe{
+        background-color: #f0fdf4;
+        border-color: #bbf7d0;
+    }
+
+    .cartao-id{
+        background-color: #fef2f2;
+        border-color: #fecaca;
+    }
+    
